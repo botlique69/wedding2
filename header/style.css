@@ -20,7 +20,7 @@ img {
     margin-bottom: 1.5rem;
 }
 .cover {
-    background: url('https://codeberry-curriculum-assets.s3.eu-central-1.amazonaws.com/wsc/wedding-landing-cover.jpg') no-repeat 70% center/cover;
+    background: url('https://codeberry-curriculum-assets.s3.eu-central-1.amazonaws.com/wsc/wedding-landing-cover.jpg') no-repeat 70% center/cover;/*A background tulajdonságban van egy új rész: 70% center/cover. Ezt a rövidítést (shorthand) akkor használjuk, amikor egyszerre szeretnénk megadni a háttér méretét és pozícióját. Az első része (70% center) adja meg a kép pozícióját. Jelen esetben ez kissé balra mozgatja a fotót az X tengelyen, hogy a menyasszony feje ne lógjon ki a képernyőről.*/
     display: table;
     text-align: center;
     height: 100vh;
