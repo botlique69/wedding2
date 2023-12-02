@@ -94,13 +94,23 @@ section h2{
     font-family:muli ;
     padding: 1rem;
     line-height: 1.5;
-    
 }
- section img{
+.blur::after {
+    content: "";
+    display: block;
+    height: .1875rem;
+    width: 25vw;
+    margin: 1.5rem auto;
+    background-color: #444349;
+}
+    
+    
+
+ .blur img{
     width: 100px;
     height: 100px;
     margin:1rem;
  }
- section h3{
+ .blur h3{
     font-size: 2rem;
  }
