@@ -19,6 +19,16 @@ p,
 img {
     margin-bottom: 1.5rem;
 }
+.locations,
+.program,
+.gifts,
+.faq,
+.contact {
+    width: 95%;
+    margin: 1.5rem auto;
+    padding: .5rem 1rem;
+    text-align: center;
+}
 .cover {
     background: url('https://codeberry-curriculum-assets.s3.eu-central-1.amazonaws.com/wsc/wedding-landing-cover.jpg') no-repeat 70% center/cover;/*A background tulajdonságban van egy új rész: 70% center/cover. Ezt a rövidítést (shorthand) akkor használjuk, amikor egyszerre szeretnénk megadni a háttér méretét és pozícióját. Az első része (70% center) adja meg a kép pozícióját. Jelen esetben ez kissé balra mozgatja a fotót az X tengelyen, hogy a menyasszony feje ne lógjon ki a képernyőről.*/
     display: table;
@@ -41,7 +51,7 @@ img {
     color: #d2ba87;
         margin-bottom: 0;
         /* To negate the effect of the single-direction margin declaration. */
-        font-family: Great Vibes;
+     font-family: Great Vibes;
 }
 .tagline {
     font-size: 1.25rem;
@@ -70,3 +80,27 @@ img {
     vertical-align: middle;
     margin:0 .5rem
 }
+.locations{
+    text-align: center;
+    margin-top:1.5rem;
+    margin-bottom: 1.5rem;
+
+}
+section h2{
+    font-family: Great Vibes;
+    font-size: 3rem;
+}
+.blur{
+    font-family:muli ;
+    padding: 1rem;
+    line-height: 1.5;
+    
+}
+ section img{
+    width: 100px;
+    height: 100px;
+    margin:1rem;
+ }
+ section h3{
+    font-size: 2rem;
+ }
