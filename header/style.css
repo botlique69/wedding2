@@ -131,7 +131,7 @@ section h2{
    text-align: left;
    font-family:Mulish;
     padding: 1rem;
-    line-height: 1.5;
+    line-height: 1;
 
    
  }  
@@ -148,6 +148,21 @@ section h2{
     background: hsla(100, 0%, 0%, .6);
     color: #d2ba87;
     width: 100%;
+    padding:1.5rem 1rem ;
+    line-height: 1.25;
+    font-family: Mulish;
+    text-align: left;
+
  }
+ article h2{
+    font-family:Great Vibes;
+    font-size: 3rem;
+    text-align: center;
+ }
+ article h3{
+    text-align: center;
+    font-size: 2rem;
+ }
+
     
  
