@@ -144,5 +144,10 @@ section h2{
         height: 100px;
         margin: .5rem;
  }
+ .faq{
+    background: hsla(100, 0%, 0%, .6);
+    color: #d2ba87;
+    width: 100%;
+ }
     
  
