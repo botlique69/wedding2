@@ -91,7 +91,7 @@ section h2{
     font-size: 3rem;
 }
 .blur{
-    font-family:muli ;
+    font-family:mulish ;
     padding: 1rem;
     line-height: 1.5;
 }
@@ -114,3 +114,25 @@ section h2{
  .blur h3{
     font-size: 2rem;
  }
+ .program{
+     background: hsla(100, 0%, 0%, .6);
+     width: 100%;
+     padding-top: 2rem;
+    color: #d2ba87;
+    
+ } 
+ .taglin{
+    font-family: Libre Baskerville;
+    margin: 1.5rem;
+ }
+ .time{
+   text-align: left;
+   font-family:Mulish;
+    padding: 1rem;
+    line-height: 1.5;
+
+   
+ }    
+    
+    
+ 
