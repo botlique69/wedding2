@@ -149,7 +149,7 @@ section h2{
     color: #d2ba87;
     width: 100%;
     padding:1.5rem 1rem ;
-    line-height: 1.25;
+    line-height: 1.75;
     font-family: Mulish;
     text-align: left;
 
@@ -158,11 +158,27 @@ section h2{
     font-family:Great Vibes;
     font-size: 3rem;
     text-align: center;
+    padding: 1rem;
  }
  article h3{
     text-align: center;
     font-size: 2rem;
+    margin:1rem;
  }
+ .quest{
+    font-weight: 700;
+
+ }
+ .question::after{
+    content: "";
+    height:.185rem;
+    width: 70vw;
+    background-color: #d2ba87;;
+    display:block;
+    margin: 1.5rem auto;
+
+ }
+
 
     
  
