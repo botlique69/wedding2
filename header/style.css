@@ -147,11 +147,11 @@ section h2{
  .faq{
     background: hsla(100, 0%, 0%, .6);
     color: #d2ba87;
-    width: 100%;
     padding:1.5rem 1rem ;
     line-height: 1.75;
     font-family: Mulish;
-    text-align: left;
+    text-align: center;
+    width: auto;
 
  }
  article h2{
@@ -167,6 +167,8 @@ section h2{
  }
  .quest{
     font-weight: 700;
+    text-align: left;
+    
 
  }
  .question::after{
@@ -178,7 +180,17 @@ section h2{
     margin: 1.5rem auto;
 
  }
+ .answer{
+    text-align: left;
+ }
+ .contact h2{
+    font-family: Great Vibes;
+        font-size: 3rem;
+        padding: 1rem;
+ } 
+ .contact p{
+    margin:1rem auto
+ }  
 
 
     
- 
