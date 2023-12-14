@@ -191,6 +191,30 @@ section h2{
  .contact p{
     margin:1rem auto
  }  
+ footer {
+     height: 10vh;
+     width: 100vw;
+     background-color: #606060;
+     color: #fff;
+     font-family: 'Muli', sans-serif;
+     display: table;
+     text-align: center;
+     font-size: .875rem;
+ }
+ .footer-wrapper {
+     display: table-cell;
+     vertical-align: middle;
+     padding: .5rem 1rem;
+ }
+ footer small {
+     line-height: 1.5;
+ }
+ footer p {
+     margin-bottom: 0;
+ }
+
+
+ 
 
 
     
